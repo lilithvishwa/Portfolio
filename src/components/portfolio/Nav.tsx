@@ -33,7 +33,7 @@ export function Nav() {
           {/* <span className="grid place-items-center h-7 w-7 rounded-md bg-primary/15 text-primary font-mono text-[13px]">
             lv  
           </span> */}
-          <img className="grid place-items-center h-9 w-9 rounded-2xl bg-primary/15 text-primary font-mono text-[13px]" src="./DP.jpg" alt="Lilith_Vishwa DP" />
+          <img className="grid place-items-center h-9 w-9 rounded-2xl bg-primary/15 text-primary font-mono text-[13px]" src="./Lilith.jpeg" alt="Lilith_Vishwa DP" />
           <span className="sm:inline">LilithVishwa  G</span>
         </a>
         <nav className="hidden md:flex items-center gap-1 text-sm text-muted-foreground">
