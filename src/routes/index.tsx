@@ -12,17 +12,20 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "G. Lilith Vishwa — Frontend Developer (React, TypeScript)" },
+      { title: "G. Lilith Vishwa — Software Engineer (React.js & React Native)" },
       {
         name: "description",
         content:
-          "Frontend Developer building scalable, production-grade web applications with React, TypeScript and Tailwind CSS.",
+          "Software Engineer specializing in Web and Mobile Application Development. Building scalable, responsive, and user-focused applications using React.js and React Native.",
       },
-      { property: "og:title", content: "G. Lilith Vishwa — Frontend Developer" },
+      {
+        property: "og:title",
+        content: "G. Lilith Vishwa — Software Engineer (Web & Mobile)",
+      },
       {
         property: "og:description",
         content:
-          "React & TypeScript developer crafting modern, user-centric web experiences.",
+          "Building modern web & mobile experiences with React.js, React Native, JavaScript & TypeScript.",
       },
     ],
     links: [{ rel: "canonical", href: "/" }],

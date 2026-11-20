@@ -4,23 +4,23 @@ import { Code2, Layers, Sparkles, Users } from "lucide-react";
 const pillars = [
   {
     icon: Code2,
-    title: "Frontend specialist",
-    body: "Deep focus on React, TypeScript and modern CSS — building component systems that scale.",
+    title: "Web & Mobile Engineering",
+    body: "Specialized in React.js and React Native — crafting responsive web platforms and performant cross-platform mobile apps.",
   },
   {
     icon: Layers,
-    title: "Production experience",
-    body: "Shipping features used in a live LMS by students, trainers and administrators every day.",
+    title: "Production-Level Applications",
+    body: "Proven track record shipping features for real-world platforms, from enterprise LMS solutions to patient healthcare apps.",
   },
   {
     icon: Users,
-    title: "Team collaboration",
-    body: "Comfortable working with backend teams, designers and product owners in Agile workflows.",
+    title: "API & Component Systems",
+    body: "Building reusable, modular UI components and integrating seamless REST APIs for robust end-to-end functionality.",
   },
   {
     icon: Sparkles,
-    title: "Always learning",
-    body: "Constantly exploring new patterns, tools and best practices to write better software.",
+    title: "Scalable & User-Friendly",
+    body: "Dedicated to building clean, accessible, and scalable digital solutions that elevate the end-user experience.",
   },
 ];
 
@@ -29,8 +29,8 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="A frontend developer who cares about the details."
-      description="I build interfaces that feel fast, polished and considered. My day-to-day is a mix of designing reusable components, integrating APIs, and making sure the experience holds up under real-world use."
+      title="A Software Engineer passionate about building web & mobile experiences."
+      description="With hands-on professional experience in React.js and React Native, I engineer responsive web applications and cross-platform mobile solutions. My work centers on building modular reusable components, integrating robust REST APIs, and delivering high-performance, production-level digital products that are intuitive and built to scale."
     >
       <div className="grid sm:grid-cols-2 gap-4">
         {pillars.map(({ icon: Icon, title, body }) => (

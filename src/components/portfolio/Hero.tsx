@@ -18,7 +18,7 @@ export function Hero() {
             <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-70 animate-ping" />
             <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
           </span>
-          Available for FullStack Opportunities
+          Open to Frontend & Mobile Development Opportunities
         </motion.div>
 
         <motion.h1
@@ -27,10 +27,10 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.05 }}
           className="mt-6 text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight leading-[1.05] max-w-4xl"
         >
-          Building modern web experiences with{" "}
-          <span className="text-primary">React</span> ,{" "}
-          <span className="text-accent">Javascript</span> &{" "}
-          <span className="text-accent">TypeScript</span>.
+          Building modern <span className="text-primary">Web & Mobile experiences with</span>  <span className="text-accent">React</span>,{" "}
+          <span className="text-accent">React Native</span> &{" "}
+          {/* <span className="text-primary">JavaScript</span> &{" "} */}
+          <span className="text-accent"> JavaScript</span>.
         </motion.h1>
 
         <motion.p
@@ -39,10 +39,12 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.12 }}
           className="mt-6 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed"
         >
-          I'm <span className="text-foreground font-medium">G. Lilith Vishwa</span>, a Frontend
-          Developer crafting scalable, responsive and user-centric web applications. Currently
-          building <span className="text-foreground font-medium">VRXLEARN</span>, a production LMS
-          at VRNexGen Technologies.
+          I'm <span className="text-foreground font-medium">G. LilithVishwa</span>, a Software
+          Engineer specializing in Web and Mobile Application Development. I build scalable,
+          responsive, and user-focused applications using React.js and React Native. Currently
+          contributing to <span className="text-foreground font-medium">SmartHealth</span> and
+          developing mobile healthcare solutions at{" "}
+          <span className="text-foreground font-medium">VRNeXGen Technologies</span>.
         </motion.p>
 
         <motion.div
@@ -66,7 +68,7 @@ export function Hero() {
             Contact me
           </a>
           <a
-            href="/Lilith_Vishwa_Resume.pdf"
+            href="/LilithVishwa_Resume.pdf"
             download
             className="inline-flex items-center gap-2 rounded-md border border-border/60 px-4 py-2.5 text-sm font-medium text-muted-foreground hover:text-foreground hover:border-border transition-colors"
           >
@@ -115,12 +117,12 @@ export function Hero() {
             <span className="ml-3 text-xs font-mono text-muted-foreground">developer.js</span>
           </div>
           <pre className="px-5 py-5 text-[13px] sm:text-sm font-mono leading-relaxed overflow-x-auto">
-{`const lilith: Developer = {
-  name: "G. Lilith Vishwa",
-  role: "Frontend Developer",
-  stack: ["React", "Javascript" , "TypeScript", "Tailwind CSS", "Node.js"],
-  currentlyBuilding: "VRXLEARN — production LMS @ VRNexGen",
-  focus: ["Scalable UI systems", "Performance"],
+            {`const lilith: Developer = {
+  name: "G. LilithVishwa",
+  role: "Software Engineer (Web & Mobile)",
+  stack: ["React.js", "React Native", "TypeScript", "JavaScript", "Tailwind CSS", "Node.js"],
+  currentlyBuilding: "SmartHealth Mobile App @ VRNeXGen",
+  focus: ["Cross-Platform Mobile Apps", "Scalable Web UIs", "Performance"],
 };`}
           </pre>
         </motion.div>

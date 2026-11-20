@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail ,Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 export function Footer() {
   return (
@@ -6,12 +6,12 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
           Designed & Developed by{" "}
-          <span className="text-foreground font-medium">G. LilithVishwa</span>
+          <span className="text-foreground font-medium">LilithVishwa G</span>
         </p>
         <div className="flex items-center gap-2">
           {[
             { href: "mailto:lilith04062005@gmail.com", icon: Mail, label: "Email" },
-            { href: "tel:+9193613956586", icon: Phone, label: "Phone" }, // Replace with your number
+            { href: "tel:+919361395686", icon: Phone, label: "Phone" },
             { href: "https://github.com/lilithvishwa", icon: Github, label: "GitHub" },
             { href: "https://linkedin.com/in/lilithvishwa2005", icon: Linkedin, label: "LinkedIn" },
           ].map(({ href, icon: Icon, label }) => (

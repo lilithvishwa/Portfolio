@@ -24,24 +24,27 @@ export function Nav() {
       initial={{ y: -24, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
-      className={`fixed top-0 inset-x-0 z-50 transition-colors ${
-        scrolled ? "border-b border-border/60 bg-background/70 backdrop-blur-xl" : "bg-transparent"
-      }`}
+      className={`fixed top-0 inset-x-0 z-50 transition-colors ${scrolled ? "border-b border-border/60 bg-background/70 backdrop-blur-xl" : "bg-transparent"
+        }`}
     >
       <div className="mx-auto max-w-6xl px-6 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-semibold tracking-tight">
           {/* <span className="grid place-items-center h-7 w-7 rounded-md bg-primary/15 text-primary font-mono text-[13px]">
             lv  
           </span> */}
-          <img className="grid place-items-center h-9 w-9 rounded-2xl bg-primary/15 text-primary font-mono text-[13px]" src="./Lilith.jpeg" alt="Lilith_Vishwa DP" />
-          <span className="sm:inline">LilithVishwa  G</span>
+          <img
+            className="grid place-items-center h-9 w-9 rounded-2xl bg-primary/15 text-primary font-mono text-[13px] object-cover"
+            src="/Lilith.jpeg"
+            alt="Lilith Vishwa DP"
+          />
+          <span className="sm:inline">LilithVishwa G</span>
         </a>
         <nav className="hidden md:flex items-center gap-1 text-sm text-muted-foreground">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="px-3 py-2 rounded-md hover:text-foreground transition-colors"  
+              className="px-3 py-2 rounded-md hover:text-foreground transition-colors"
             >
               {l.label}
             </a>

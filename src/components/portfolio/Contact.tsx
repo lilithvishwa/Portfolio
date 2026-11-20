@@ -26,7 +26,7 @@ export function Contact() {
       id="contact"
       eyebrow="Contact"
       title="Let's build something together."
-      description="Open to frontend roles, freelance work and interesting collaborations. The fastest way to reach me is email or LinkedIn."
+      description="Open to frontend and mobile development opportunities, freelance work, and engineering collaborations. The fastest way to reach me is email or LinkedIn."
     >
       <div className="grid lg:grid-cols-5 gap-6">
         <div className="lg:col-span-2 space-y-3">

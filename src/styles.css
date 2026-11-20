@@ -64,19 +64,19 @@
 :root {
   --radius: 0.625rem;
   /* Dark developer portfolio palette (always-on dark) */
-  --background: oklch(0.18 0.03 260);          /* #0B1120 */
-  --foreground: oklch(0.98 0.005 250);         /* #F8FAFC */
-  --card: oklch(0.23 0.03 260);                /* #111827 */
+  --background: oklch(0.18 0.03 260); /* #0B1120 */
+  --foreground: oklch(0.98 0.005 250); /* #F8FAFC */
+  --card: oklch(0.23 0.03 260); /* #111827 */
   --card-foreground: oklch(0.98 0.005 250);
   --popover: oklch(0.23 0.03 260);
   --popover-foreground: oklch(0.98 0.005 250);
-  --primary: oklch(0.66 0.18 255);             /* #3B82F6 */
+  --primary: oklch(0.66 0.18 255); /* #3B82F6 */
   --primary-foreground: oklch(0.99 0.005 250);
   --secondary: oklch(0.28 0.03 260);
   --secondary-foreground: oklch(0.98 0.005 250);
   --muted: oklch(0.27 0.03 260);
-  --muted-foreground: oklch(0.72 0.03 255);    /* #94A3B8 */
-  --accent: oklch(0.74 0.13 210);              /* #06B6D4 cyan */
+  --muted-foreground: oklch(0.72 0.03 255); /* #94A3B8 */
+  --accent: oklch(0.74 0.13 210); /* #06B6D4 cyan */
   --accent-foreground: oklch(0.18 0.03 260);
   --destructive: oklch(0.62 0.22 27);
   --destructive-foreground: oklch(0.99 0 0);
@@ -168,8 +168,16 @@
 /* Subtle grid backdrop used in hero */
 @utility bg-grid {
   background-image:
-    linear-gradient(to right, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px),
-    linear-gradient(to bottom, color-mix(in oklab, var(--foreground) 6%, transparent) 1px, transparent 1px);
+    linear-gradient(
+      to right,
+      color-mix(in oklab, var(--foreground) 6%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in oklab, var(--foreground) 6%, transparent) 1px,
+      transparent 1px
+    );
   background-size: 56px 56px;
 }
 
